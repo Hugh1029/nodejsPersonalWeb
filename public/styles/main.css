@@ -230,3 +230,63 @@ ul,label {
 .image-next:hover ,.image-prev:hover,.image-close:hover{
     opacity: 1;
 }
+
+/************动画******************************************************/
+.my-picture {
+    position: fixed;
+    left: -50px;
+    top: 0;
+    width: 20px;
+    opacity: 0.3;
+}
+
+.my-picture-person {
+    position: fixed;
+    left: 75%;
+    top: 43%;
+    width: 80px;
+    opacity: 0;
+}
+
+.my-picture-person1 {
+    position: fixed;
+    left: 37%;
+    top: 54%;
+    width: 30px;
+    opacity: 0;
+}
+
+/***夜晚*******************************************/
+.night {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.star {
+    position: fixed;
+    left: 25%;
+    top: 2%;
+    width: 250px;
+    opacity: 0;
+}
+
+.star3{
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.jian {
+    position: fixed;
+    left: 120%;
+    top: -20%;
+    width: 50px;
+    opacity: 0.8;
+}
